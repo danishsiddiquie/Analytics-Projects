@@ -70,7 +70,7 @@ ggplot(vehicle,aes(as.factor(BOROUGH)))+
   theme(plot.title = element_text(hjust = .5),legend.position = "none")
 ```
 
-![](final_project_files/figure-gfm/bar%20for%20number%20of%20accidents%20by%20borough-1.png)<!-- -->
+![](final_project_files/figure-markdown_github/bar%20for%20number%20of%20accidents%20by%20borough-1.png)
 
 We then created a bar plot of the number of accidents in each of the
 boroughs. We found that Brooklyn has the highest number of accidents,
@@ -92,7 +92,7 @@ ggmap(myMap)+
 
 <center>
 
-<img src="https://github.com/danishsiddiquie/Project/blob/master/NYC%20motor%20collision/final_project_files/figure-markdown_github/p3.png">
+![](final_project_files/figure-markdown_github/p3.png)
 
 </center>
 
@@ -116,7 +116,7 @@ ggplot(vehicle, aes(as.numeric(hour)))+
   theme(plot.title = element_text(hjust = .5))
 ```
 
-![](final_project_files/figure-gfm/time%20variable-1.png)<!-- -->
+![](final_project_files/figure-markdown_github/time%20variable-1.png)
 
 We wanted to find out what part of the day the highest number of
 accidents occur for each borough, so we created a bar plot that shows
@@ -271,7 +271,7 @@ ggplot(vehicle, aes(hour, residual)) +
   theme(plot.title = element_text(hjust = .5))
 ```
 
-![](final_project_files/figure-gfm/residual%20point%20plot-1.png)<!-- -->
+![](final_project_files/figure-markdown_github/residual%20point%20plot-1.png)
 
 The residual plot shows that the although distribution of points is
 linear, the residuals are not evenly distributed around x axis and are
@@ -286,7 +286,7 @@ ggplot(vehicle,aes(residual))+
   theme(plot.title = element_text(hjust = .5))
 ```
 
-![](final_project_files/figure-gfm/histogram%20of%20residuals-1.png)<!-- -->
+[](final_project_files/figure-markdown_github/histogram%20of%20residuals-1.png)
 
 Furthermore, The histogram shows that the residuals are completely
 skewed to the left, suggesting that the data is not normal. A histogram
@@ -323,7 +323,7 @@ ggplot(total_fatality,aes(x=fatality,y=total))+
   theme(plot.title = element_text(hjust = .5),legend.position = "none")
 ```
 
-![](final_project_files/figure-gfm/barplot%20of%20different%20fatality%20types-1.png)<!-- -->
+![](final_project_files/figure-markdown_github/barplot%20of%20different%20fatality%20types-1.png)
 
 The bar plot corroborates the linear regression models, which had a lot
 of factors being statistically significant for injuries, yet only some
@@ -352,7 +352,7 @@ ggmap(myMap)+
 
 <center>
 
-<img src="https://github.com/danishsiddiquie/Project/blob/master/NYC%20motor%20collision/final_project_files/figure-markdown_github/p8.png">
+![](final_project_files/figure-markdown_github/p8.png)
 
 </center>
 
@@ -376,7 +376,7 @@ ggmap(map_zoomed)+
 
 <center>
 
-<img src="https://github.com/danishsiddiquie/Project/blob/master/NYC%20motor%20collision/final_project_files/figure-markdown_github/p9.png">
+![](final_project_files/figure-markdown_github/p9.png)
 
 </center>
 
@@ -444,7 +444,7 @@ roccurve <- roc(Test$killed ~ prediction)
 plot(roccurve)
 ```
 
-![](final_project_files/figure-gfm/logistic%20regression-1.png)<!-- -->
+![](final_project_files/figure-markdown_github/logistic%20regression-1.png)
 
 ``` r
 auc(Test$killed, prediction)
