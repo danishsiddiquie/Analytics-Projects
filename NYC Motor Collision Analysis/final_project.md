@@ -1,7 +1,6 @@
 Vehicle collision
 ================
-Danish Siddiquie, Alex Barnes, Drake Horton
-29 November 2017
+
 
 Data Exploration and Analysis
 =============================
