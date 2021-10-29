@@ -56,7 +56,7 @@ ggmap(myMap) +
 
 <center>
 
-<img src="https://github.com/danishsiddiquie/Project/blob/master/NYC%20motor%20collision/final_project_files/figure-markdown_github/p1.png">
+![](final_project_files/figure-markdown_github/p1.png)
 
 </center>
 
