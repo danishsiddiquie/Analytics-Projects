@@ -83,6 +83,9 @@ Heat map showing accidents occuring in manhattan
 <center>
 <img src="https://github.com/danishsiddiquie/Project/blob/master/NYC%20motor%20collision/final_project_files/figure-markdown_github/p3.png">
 </center>
+
+![](final_project_files/figure-markdown_github/p3.png)
+
 We created a heatmap of the number of accidents occurring across the boroughs. We found that although Brooklyn has the highest number of accidents occuring, the accidents in Manhattan were much more condensed into one area. Accidents that occured in Brooklyn and Queens were much more spread out. The map also helps confirm that Staten Island has the least amount of accidents since there is almost no markation from the heat map in that area.
 
 ``` r
